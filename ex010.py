@@ -6,12 +6,11 @@ x()
 
 while True :
     try :
-        altura = float(input('Informe a altura da parede: '))
-        largura = float(input('Informe a largura da parede: '))
-        area = altura * largura 
+        altura = float(input('Informe a altura da parede: ').replace(',', '.'))
+        largura = float(input('Informe a largura da parede: ').replace(',', '.'))
+        area = int(altura * largura) 
 
-        
-
+        print(f'A área da parede é {area}m² e a quantidade de tinta necessaria {area // 2} litros.')
         
         break 
     except :
