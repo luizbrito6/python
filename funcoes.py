@@ -1,4 +1,6 @@
-import os 
+import os
+from time import sleep
+
 
 # Função para limpar o terminal 
 def x() : 
@@ -27,5 +29,9 @@ def titulo(titulo) :
     print('\n')
 
 
-# Função para fazer um menu numerico 
+# Função para dar um timer entre limpar o terminal 
+def y(timer) :
+    sleep(timer)
+
+
 
