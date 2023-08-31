@@ -1,12 +1,15 @@
-from funcoes import leitorCoringa, x
+from funcoes import x 
 
 x() 
 
+y = 30
 
-num = leitorCoringa(int, 'Informe um número inteiro:', 'Informe valores inteiros!')
+while y >= 1 :
 
-while num > 0 :
-    print(num)
-    num -= 1
-    
-print('Acabou!')      
+    if y % 4 == 0 :
+        print(f'[{y}]')
+    else :
+        print(y)
+
+    y -= 1 
+
