@@ -10,6 +10,7 @@ maiorIdade = 0
 
 somaIdade = 0
 contadorUsuario = 0
+contadorMulher = 0 
 
 homemMaisTrinta = 0
 mulherMenosDezoito = 0
@@ -36,8 +37,11 @@ while True :
 
     if sexo == 2 :
 
+        contadorMulher += 1
+
         if menorIdade == 0 :
             menorIdade = idade
+            nomeMulherMaisJovem = nome
         
         if idade < menorIdade :
             menorIdade = idade
@@ -58,10 +62,13 @@ while True :
         break
 
 
-print('\n')
-print(f'Nome da mulher mais jovem: {nomeMulherMaisJovem} | Idade: {menorIdade} anos')
-print('\n')
-print(f'Nome da mulher mais velha: {nomeMulherMaisVelha} | Idade: {maiorIdade} anos')
+if contadorMulher > 0 : 
+    print('\n')
+    print(f'Nome da mulher mais jovem: {nomeMulherMaisJovem} | Idade: {menorIdade} anos')
+    print('\n')
+    print(f'Nome da mulher mais velha: {nomeMulherMaisVelha} | Idade: {maiorIdade} anos')
+else : 
+    print('Nenhuma mulher foi cadastrada no programa!')
 print('\n')
 print(f'Média de idade dos usuários cadastrados: {somaIdade / contadorUsuario} anos')
 print('\n')
