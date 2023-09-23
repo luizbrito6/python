@@ -2,7 +2,7 @@ from funcoes import *
 
 x() 
 
-titulo('Vetor Exercício 08')
+titulo('Vetor Exercício 09')
 
 
 numeros = []

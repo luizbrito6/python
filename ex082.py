@@ -2,6 +2,8 @@ from funcoes import *
 
 x() 
 
+titulo('Vetor Exercício 12')
+
 soma = 0
 notas = []
 maiorQueMedia = []

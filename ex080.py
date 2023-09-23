@@ -1,8 +1,8 @@
 from funcoes import * 
 from random import randint
-titulo('Vetor Exercício 09')
 
 x() 
+titulo('Vetor Exercício 10')
 numeros = []
 
 for z in range (0, 30) :
