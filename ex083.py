@@ -2,7 +2,7 @@ from funcoes import *
 from random import randint
 
 x() 
-titulo('Vetor Exercício 13')
+titulo('Vetor Exercício 13 - Desafio')
 
 # PEGAR lstA BAGUNÇADA - CHECK
 # PEGAR O MENOR NÚMERO DESSA LISTA 
@@ -30,7 +30,6 @@ menor = pegarMenor(lst)
 
 ordenado = []
 for n in lst :
-
     menor = pegarMenor(lst)
     lst.remove(menor)
     ordenado.append(menor)
@@ -38,6 +37,7 @@ for n in lst :
 
 print(ordenado)
 
+print('\n')
 
 
 
