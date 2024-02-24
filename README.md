@@ -1,13 +1,13 @@
-
-<h1 align="center">Exercícios realizando durante as aulas de Algoritmos e programação no curso de Ciências da Computação no SENAC</h1>
+# Pitão
+Exercícios de lógica feitos com PYTHON
 
 
 <div align="center">
-    <img width="800" title="c" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.britefish.net%2Fwp-content%2Fuploads%2F2019%2F07%2Flogo-c-1.png&f=1&nofb=1&ipt=209f95974f7144ecb49be523612b658880bd9243c1bb32336824de1285381b27&ipo=images"/>
+    <img width="800" title="python" src="https://github.com/luizbrito6/python/assets/112624030/f1c9fa34-c957-42e2-9518-c5800ea38c6a"/>
 <div>
 
 
 --- 
 
-
+[lista-exercicios.pdf](https://github.com/luizbrito6/python/files/12327935/lista-exercicios.pdf)
 
